@@ -31,7 +31,6 @@ def home():
         currentCustomer = Customer(customer[0], customer[1], customer[2])
         customerList.append(currentCustomer)
         
-    
     return render_template("home.html", customerList=customerList)
 
 if __name__ == "__main__":
