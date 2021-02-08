@@ -7,7 +7,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border: 1px solid rgba(0, 0, 0, 0.36);
     transition: 0.3s;
-    width: 40%;
+    width: 20%;
     height: auto;
     border-radius: 10px;
     flex-basis: auto;
@@ -32,14 +32,17 @@ body {
 
   .center {
     margin: auto;
-    width: 50%;
+    width: 75%;
     padding: 10px;
     text-align: center;
   }
 
   .container {
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .img {
